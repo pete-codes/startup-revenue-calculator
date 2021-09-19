@@ -1,0 +1,100 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+
+  text-align: center;
+  font-family: lato, sans-serif;
+  cursor: text;
+  background-color: black;
+  color:#00ad9f;
+}
+
+h2 {
+  vertical-align: middle;
+  text-align: center;
+  margin:0 !important;
+  
+}
+
+
+
+#headline {
+  border: solid 5px #00ad9f ;
+  padding:10px;
+  border-radius: 5px;
+
+}
+h1{
+  padding-bottom: 10px;
+    padding-top: 10px;
+    color:#00ad9f;
+    margin: 50px;
+}
+
+#textInput
+{
+
+    font-size:18pt;
+    width:600px;
+    border: #00ad9f 1px solid;
+}
+
+.inputBox {
+  height: 50px;
+  width: 600px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  margin:15px;
+
+}
+button {
+  background-color:#00ad9f;
+  color:white;
+  font-weight: 600;
+  height:40px;
+  width: 200px;
+  padding-bottom: 0px;
+  cursor:pointer;
+  text-align: center;
+  margin-top:10px;
+  a#cta-hero-getstartedforfree.button {
+  -moz-osx-font-smoothing: grayscale;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #00ad9f;
+  border: 2px solid #00ad9f;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  margin:0;
+  
+
+}
+
+
+
+h3 {
+
+  border-left:1px solid black;
+    cursor:pointer;
+    color:#fffffff;
+}
+
+a:link {
+  color:black;
+}
+
+a* {
+  color:black;
+}

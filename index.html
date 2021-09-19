@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="startup-income-calculator.css">
+ 
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<script src="startup-revenue-calculator.js" charset="utf-8"></script>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Startup revenue calculator</title>
+</head>
+<body>
+
+  <div class="container">
+
+<div class="row align-items-center">
+  <div class="col">
+  <h1> <span id="headline"> Startup Revenue Calculator 💸 </span> </h1>
+
+  <h2>See your hourly revenue </h2>
+
+  <form> 
+    <input type="number"  class="inputBox" id="revenue" placeholder="Revenue earned per month?" required><br/><br/>
+    
+    
+    <input type="number" min="1" class="inputBox" id="hours" placeholder="Hours worked per month?" required> <br><!-- <input type="number" id="hours" placeholder="Enter the minimum wage"> -->
+    <input type="number" id="minWage" class="inputBox" required placeholder="Your area's hourly minimum wage">  
+  </form> 
+
+
+
+<button id="titleButton" onclick="findRevenueHour()"> <h2> Find out 🤔 </h2> </button>
+
+<h3 id="explanation"> </h3>
+
+<h3 id="minWageComparison"> </h3>
+
+<!-- <a href="https://www.petecodes.io"<h3> Made by Pete Codes </h3> </a> -->
+
+</div>
+</div>
+  </div>
+
+
+
+</body>
+</html>
